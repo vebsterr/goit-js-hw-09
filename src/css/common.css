@@ -16,3 +16,55 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* Стили для 1 задания */
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.color-btn {
+  width: 100px;
+  height: 100px;
+  border: #212121 2px solid;
+  border-radius: 50px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.color-btn.start-btn {
+  background-color: rgb(51, 224, 71);
+}
+.color-btn.stop-btn {
+  background-color: rgb(255, 98, 67);
+}
+
+/* Стили для 2 задания */
+
+.timer {
+  margin-top: 25px;
+  display: flex;
+}
+
+.field {
+  margin-right: 30px;
+  padding: 20px;
+
+  border: #212121 2px solid;
+  border-radius: 10px;
+
+  background-color: rgb(4, 57, 57);
+  color: #ffffff;
+}
+
+input {
+  border-radius: 3px;
+  padding: 5px;
+  text-align: center;
+}
+
+button[data-start] {
+  padding: 10px;
+  border-radius: 50px;
+}
